@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-// import { CoreModule } from './app/core/core-module'; // Removed or update path if needed
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 

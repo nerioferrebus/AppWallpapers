@@ -18,7 +18,7 @@ export function httpLoaderFactory(http: HttpClient) {
     }),
   ],
   providers: [
-    ...firebaseProviders, // 👈 aquí, no en imports
+    ...firebaseProviders, 
   ],
 })
 export class CoreModule {}

@@ -1,8 +1,7 @@
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { provideAuth, getAuth } from '@angular/fire/auth';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-// Si usas Storage, agrega:
-// import { provideStorage, getStorage } from '@angular/fire/storage';
+
 
 export const firebaseProviders = [
   provideFirebaseApp(() => initializeApp({
@@ -13,5 +12,5 @@ export const firebaseProviders = [
   })),
   provideAuth(() => getAuth()),
   provideFirestore(() => getFirestore()),
-  // provideStorage(() => getStorage()),
+  
 ];
